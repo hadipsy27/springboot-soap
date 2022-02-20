@@ -1,0 +1,24 @@
+<schema xmlns="http://www.w3.org/2001/XMLSchema"
+        targetNamespace="http://bytecodedevelocity.com/hrms"
+        xmlns:tns="http://bytecodedevelocity.com/hrms"
+        elementFormDefault="qualified">
+
+    <element name="GetEmployeeRequest" type="tns:GetEmployeeRequest"></element>
+
+    <complexType name="GetEmployeeRequest">
+        <sequence>
+            <element name="employeeId" type="int"></element>
+        </sequence>
+    </complexType>
+
+    <element name="GetEmployeeResponse" type="tns:GetEmployeeResponse"></element>
+
+    <complexType name="GetEmployeeResponse">
+        <sequence>
+            <element name="employeeId" type="int"></element>
+            <element name="employeeName" type="string"></element>
+            <element name="location" type="string"></element>
+            <element name="zipcode" type="int"></element>
+        </sequence>
+    </complexType>
+</schema>
