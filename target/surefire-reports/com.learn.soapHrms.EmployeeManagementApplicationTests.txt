@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.learn.soapHrms.EmployeeManagementApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 7.712 s - in com.learn.soapHrms.EmployeeManagementApplicationTests
